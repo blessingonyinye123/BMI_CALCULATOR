@@ -5,8 +5,8 @@ st.title("⚖️ My BMI Calculator Web App")
 st.write("Enter your details below to calculate your Body Mass Index.")
 
 # Web inputs replacing input()
-weight = st.number_input("Enter your weight in kg:", min_value=1.0, value=60.0, step=0.5)
-height_cm = st.number_input("Enter your height in cm:", min_value=1.0, value=170.0, step=1.0)
+weight = st.number_input("Enter your weight in kg:", min_value=0.0, value=0.0, step=0.5)
+height_cm = st.number_input("Enter your height in cm:", min_value=0.0, value=0.0, step=1.0)
 
 # Button to trigger your logic
 if st.button("Calculate BMI"):
